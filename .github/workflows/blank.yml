@@ -28,7 +28,7 @@ jobs:
       - name: Skyline DataMiner Deploy Action
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.11
         with:
-         api-key: ${{ secrets.DM__RAMYA_TEST }}
+         api-key: ${{ secrets.DM_RAMYA_TEST }}
          solution-path: AutomationScript.sln
          artifact-name: EmpowerHelloWorldV1
          version: 1.0.1
