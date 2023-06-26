@@ -69,6 +69,7 @@ namespace dm_as_test_ramya_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Ramya Ramalingam Test 26 06 2023");
+			engine.GenerateInformation("commit 2 Test 26 06 2023");
 		}
 	}
 }
